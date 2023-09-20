@@ -47,11 +47,11 @@ const[text,setText]=useState('Enter text here');
       <div className="mb-3">
         <textarea className="form-control" id="myBox" value={text} onChange={handleOnChange} style={{backgroundColor : props.mode === 'light'? 'white':'grey', color: props.mode === 'light'?'black':'white' }} rows="8"></textarea>
       </div>
-      <button className="btn-primary mx-2" onClick={handleUpClick}>Convert to uppercase</button>
-      <button className="btn-primary mx-2" onClick={handleLoClick}>Convert to lowercase</button>
-      <button className="btn-primary mx-2" onClick={handleClearClick}>Clear text</button>
-      <button className="btn-primary mx-2" onClick={handleTrimClick}>Trim text</button>
-      <button className="btn-primary mx-2" onClick={reversed}>Reverse text</button>
+      <button className="btn-primary mx-2 my-2" onClick={handleUpClick}>Convert to uppercase</button>
+      <button className="btn-primary mx-2 my-2" onClick={handleLoClick}>Convert to lowercase</button>
+      <button className="btn-primary mx-2 my-2" onClick={handleClearClick}>Clear text</button>
+      <button className="btn-primary mx-2 my-2" onClick={handleTrimClick}>Trim text</button>
+      <button className="btn-primary mx-2 my-2" onClick={reversed}>Reverse text</button>
     
     <div className="container my-3" >
       <h1>Your text summary</h1>
